@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.epam.esm.util.service.impl.GiftServiceImplTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.243 s <<< FAILURE! - in com.epam.esm.util.service.impl.GiftServiceImplTest
-getAllGiftsShouldFail  Time elapsed: 0.018 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <null> but was: <[links: [], links: []]>
-	at com.epam.esm.util.service.impl.GiftServiceImplTest.getAllGiftsShouldFail(GiftServiceImplTest.java:94)
-
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.282 s - in com.epam.esm.util.service.impl.GiftServiceImplTest

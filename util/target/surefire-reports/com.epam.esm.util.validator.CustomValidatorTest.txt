@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.epam.esm.util.validator.CustomValidatorTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.214 s - in com.epam.esm.util.validator.CustomValidatorTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.epam.esm.util.validator.CustomValidatorTest
