@@ -79,6 +79,22 @@ class GiftServiceImplTest {
 
     }
 
+
+    /*
+    *
+    * Checking jenkins
+    *
+    * */
+
+    @Test
+    void getAllGiftsShouldFail() throws CustomServiceException {
+        Optional<BigInteger> rawOptional = Optional.of(BigInteger.valueOf(100L));
+        when(giftDao.getAllGifts(1)).thenReturn(giftList);
+        when(giftDao.getRawCount()).thenReturn(rawOptional);
+        assertEquals(null, GiftDtoMapper.mapGiftToDto(giftDao.getAllGifts(1)));
+    }
+
+
     @Test
     void getAllGifts() throws CustomServiceException {
         Optional<BigInteger> rawOptional = Optional.of(BigInteger.valueOf(100L));
