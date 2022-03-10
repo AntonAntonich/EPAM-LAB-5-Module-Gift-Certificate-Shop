@@ -71,7 +71,7 @@ public class CustomValidator {
 
     public static void isDataValid(String... data) throws CustomServiceException {
         for (String element : data) {
-            if (element == null || element.isBlank()) {
+            if (element == null || element.isEmpty()) {
                 throw new CustomServiceException(MessageManager.toLocale(MessageKey.INCORRECT_DATA));
             }
         }
