@@ -1,0 +1,11 @@
+com\epam\esm\web\filter\MyJwtRequestFilter.class
+com\epam\esm\web\controller\TestController.class
+com\epam\esm\web\security\ConstantUrl.class
+com\epam\esm\web\GiftApplication.class
+com\epam\esm\web\controller\UserController.class
+com\epam\esm\web\security\MySecurityConfiguration.class
+com\epam\esm\web\controller\GiftController.class
+com\epam\esm\web\controller\TagController.class
+com\epam\esm\web\controller\ContractController.class
+com\epam\esm\web\exceptionhandler\IncorrectData.class
+com\epam\esm\web\exceptionhandler\CustomExceptionHandler.class

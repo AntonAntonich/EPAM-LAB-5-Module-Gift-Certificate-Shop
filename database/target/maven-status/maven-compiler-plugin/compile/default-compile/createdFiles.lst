@@ -1,0 +1,12 @@
+com\epam\esm\database\dao\PunctuationRegex.class
+com\epam\esm\database\dao\GiftDao.class
+com\epam\esm\database\dao\UserDao.class
+com\epam\esm\database\dao\impl\TagDaoImpl.class
+com\epam\esm\database\dao\OrderDao.class
+com\epam\esm\database\dao\impl\OrderDaoImpl.class
+com\epam\esm\database\dao\TagDao.class
+com\epam\esm\database\dao\PageConf.class
+com\epam\esm\database\dao\QueryParameter.class
+com\epam\esm\database\dao\impl\GiftDaoImpl.class
+com\epam\esm\database\dao\impl\UserDaoImpl.class
+com\epam\esm\database\dao\SqlQueries.class

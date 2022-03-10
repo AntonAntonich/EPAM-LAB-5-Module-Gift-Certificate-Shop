@@ -1,0 +1,4 @@
+com\epam\esm\util\service\impl\TagServiceImplTest.class
+com\epam\esm\util\service\impl\GiftServiceImplTest.class
+com\epam\esm\util\validator\CustomValidatorTest.class
+com\epam\esm\util\service\impl\UserServiceImplTest.class
