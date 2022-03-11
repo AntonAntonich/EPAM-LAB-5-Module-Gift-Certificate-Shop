@@ -6,7 +6,7 @@ pipeline {
 
                 steps {
                     
-                    bat "IF EXIST "C:\Users\Anton\.jenkins\workspace\Pipl-Git-Examp\EPAM-LAB-5-Module-Gift-Certificate-Shop" rmdir /s /q "C:\Users\Anton\.jenkins\workspace\Pipl-Git-Examp\EPAM-LAB-5-Module-Gift-Certificate-Shop""
+                    bat "IF EXIST C:\Users\Anton\.jenkins\workspace\Pipl-Git-Examp\EPAM-LAB-5-Module-Gift-Certificate-Shop rmdir /s /q C:\Users\Anton\.jenkins\workspace\Pipl-Git-Examp\EPAM-LAB-5-Module-Gift-Certificate-Shop"
                     bat 'git clone https://github.com/AntonAntonich/EPAM-LAB-5-Module-Gift-Certificate-Shop.git'
                     bat 'mvn clean -f EPAM-LAB-5-Module-Gift-Certificate-Shop'
                 }
