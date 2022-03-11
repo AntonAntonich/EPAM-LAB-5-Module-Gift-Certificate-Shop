@@ -5,7 +5,7 @@ pipeline {
             stage ("clone clean") {
 
                 steps {
-                    bat "rmdir /s /q EPAM-LAB-5-Module-Gift-Certificate-Shop"
+                   
                     bat 'git clone https://github.com/AntonAntonich/EPAM-LAB-5-Module-Gift-Certificate-Shop.git'
                     bat 'mvn clean -f EPAM-LAB-5-Module-Gift-Certificate-Shop'
                 }
