@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.epam.esm.util.service.impl.GiftServiceImplTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.282 s - in com.epam.esm.util.service.impl.GiftServiceImplTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.171 s - in com.epam.esm.util.service.impl.GiftServiceImplTest
